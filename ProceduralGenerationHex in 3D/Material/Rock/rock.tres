@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://b4hbgidim1m8b"]
+
+[ext_resource type="Texture2D" uid="uid://dujcmpq47w0e" path="res://Material/Rock/rock.png" id="1_51peg"]
+[ext_resource type="Texture2D" uid="uid://bhmrs22knwrig" path="res://Material/Water/water_normal.png" id="2_1tfid"]
+[ext_resource type="Texture2D" uid="uid://dkph3yuydeyd" path="res://Material/Rock/rock_normal.png" id="2_bkrg5"]
+
+[resource]
+albedo_color = Color(0.537011, 0.537011, 0.537011, 1)
+albedo_texture = ExtResource("1_51peg")
+normal_enabled = true
+normal_scale = 0.36
+normal_texture = ExtResource("2_bkrg5")
+heightmap_texture = ExtResource("1_51peg")
+detail_mask = ExtResource("1_51peg")
+detail_blend_mode = 1
+detail_albedo = ExtResource("1_51peg")
+detail_normal = ExtResource("2_1tfid")
+uv1_scale = Vector3(2, 2, 2)
