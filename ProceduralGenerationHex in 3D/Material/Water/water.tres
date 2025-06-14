@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://c8m12y5rojwig"]
+
+[ext_resource type="Texture2D" uid="uid://f0mp5eqqcpvh" path="res://Material/Water/water.png" id="1_y6fc4"]
+[ext_resource type="Texture2D" uid="uid://bhmrs22knwrig" path="res://Material/Water/water_normal.png" id="2_4hbtk"]
+
+[resource]
+albedo_color = Color(0.762404, 0.762404, 0.762404, 1)
+albedo_texture = ExtResource("1_y6fc4")
+normal_enabled = true
+normal_scale = 1.72
+normal_texture = ExtResource("2_4hbtk")
+uv1_scale = Vector3(15, 15, 15)
